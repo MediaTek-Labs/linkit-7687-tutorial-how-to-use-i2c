@@ -32,18 +32,13 @@
  * MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
  */
 
-#include <stdint.h>
 #include <stdio.h>
-#include <string.h>
 
 #include "FreeRTOS.h"
 #include "task.h"
 #include "os.h"
 #include "sys_init.h"
-#include "wifi_api.h"
-#include "network.h"
 
-#include "sntp.h"
 #include "syslog.h"
 #include "hal.h"
 #include <time.h>
